@@ -1,0 +1,56 @@
+@import "../../styles/animations.scss";
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.cookies {
+  &-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 57, 57, 0.9);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+    animation: slideUp 1s ease !important;
+
+    @include media-max-width(1500px) {
+      flex-wrap: wrap;
+    }
+
+    p {
+      margin-right: 2rem;
+
+      @include media-max-width(1500px) {
+        margin-inline: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &-button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #9fa4a0;
+    color: $black;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+    &.accepted {
+      background-color: $green;
+
+      &:hover {
+        background-color: darken($green, 10%);
+      }
+    }
+
+    &:hover {
+      background-color: darken(#9fa4a0, 20%);
+    }
+  }
+}

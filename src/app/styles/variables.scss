@@ -1,0 +1,38 @@
+$white: #ffffff;
+$black: #000000;
+$dark-blue: #0a4059;
+$green: #32b187;
+$red: #dc143c;
+$dark-blue-05: rgba(10, 64, 89, 0.1);
+
+$main-gradient: linear-gradient(90deg, $dark-blue 0%, $green 100%);
+
+// Breakpoints
+
+$grid-breakpoints: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px,
+);
+
+$container-max-widths: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px,
+);
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');

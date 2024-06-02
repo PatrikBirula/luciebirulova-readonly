@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.btn {
+  width: 100%;
+  max-width: 200px;
+  min-height: 76px;
+  background-color: transparent;
+  color: $dark-blue;
+  border-width: 0.313rem;
+  border-radius: 2.375rem;
+
+  h5 {
+    margin-block: 0;
+  }
+
+  &:hover {
+    background-color: $green;
+    color: $white;
+    border-color: $green;
+  }
+}

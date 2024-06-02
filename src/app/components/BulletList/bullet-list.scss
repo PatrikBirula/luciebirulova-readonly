@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.bullet-list {
+  margin-bottom: 3rem;
+  text-align: left;
+  font-size: 22px;
+
+  @include media-max-width(450px) {
+    font-size: 1rem !important;
+  }
+
+  li {
+    margin-block: 1rem;
+
+    &::marker {
+      color: $green;
+      font-size: 1.5em;
+    }
+  }
+
+  &.without-markers {
+    padding-left: 0;
+
+    li {
+      list-style-type: none;
+      position: relative;
+      padding-left: 0;
+    }
+  }
+}

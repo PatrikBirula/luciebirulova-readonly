@@ -1,0 +1,71 @@
+// Simple function for returning the right value for media query
+// You can pass size value (like 1200px) or a key name from $grid-breakpoints map (like "xl")
+// Anything else returns null
+@function get-breakpoint($breakpoint) {
+  $breakpoints-map: $grid-breakpoints;
+
+  @if map-has-key($breakpoints-map, $breakpoint) {
+    @return map-get($breakpoints-map, $breakpoint);
+  } @else if type-of($breakpoint) == "number" {
+    @return $breakpoint;
+  } @else {
+    @return null;
+  }
+}
+
+@mixin media-min-width($breakpoint) {
+  $min: get-breakpoint($breakpoint);
+
+  @if $min {
+    @media (min-width: $min) {
+      @content;
+    }
+  }
+}
+
+@mixin media-max-width($breakpoint) {
+  $max: get-breakpoint($breakpoint);
+
+  @if $max {
+    @media (max-width: $max) {
+      @content;
+    }
+  }
+}
+
+@mixin media-width-between($min-breakpoint, $max-breakpoint) {
+  $min: get-breakpoint($min-breakpoint);
+  $max: get-breakpoint($max-breakpoint);
+
+  @if $min and $max {
+    @media (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+  }
+}
+
+@mixin media-min-height($breakpoint) {
+  $min: get-breakpoint($breakpoint);
+
+  @if $min {
+    @media (min-height: $min) {
+      @content;
+    }
+  }
+}
+
+@mixin media-max-height($breakpoint) {
+  $max: get-breakpoint($breakpoint);
+
+  @if $max {
+    @media (max-height: $max) {
+      @content;
+    }
+  }
+}
+
+@mixin nth-type-top-position($nth, $top) {
+  &:nth-of-type(#{$nth}) {
+    top: $top;
+  }
+}

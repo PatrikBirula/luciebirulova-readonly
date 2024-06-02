@@ -1,0 +1,37 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.references {
+  display: grid;
+  grid-template-columns: 80px 70% 80px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 84px;
+
+  @include media-max-width(550px) {
+    grid-template-columns: 1fr;
+    padding-inline: 1rem;
+  }
+
+  h2 {
+    grid-column: span 3;
+    grid-row: 1;
+  }
+
+  button {
+    align-self: flex-start;
+    margin-top: 2rem;
+
+    @include media-max-width(550px) {
+      grid-column: 1;
+      grid-row: 3;
+
+      &:nth-of-type(1) {
+        margin-right: 80px;
+      }
+      &:nth-of-type(2) {
+        margin-left: 80px;
+      }
+    }
+  }
+}
