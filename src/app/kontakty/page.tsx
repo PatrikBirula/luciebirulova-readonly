@@ -76,9 +76,9 @@ const contactsRoute = () => {
           <iframe
             width="100%"
             height="210px"
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Okrov%C3%A1%20281,%20N%C3%A1chod,%20%C4%8Cesk%C3%A1%20Republika+(Lucie%20Birulov%C3%A1)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>

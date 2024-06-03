@@ -3,7 +3,13 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-const FormMessageOverlay = ({ message, state, show }) => {
+interface FormMessageOverlayProps {
+  message: string;
+  state: string;
+  show: boolean;
+}
+
+const FormMessageOverlay = ({ message, state, show }: FormMessageOverlayProps) => {
   const [hiddenState, setHiddenState] = useState("d-none");
 
   const hideOverlay = () => {

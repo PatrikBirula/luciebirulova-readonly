@@ -10,7 +10,7 @@ const ContactUs = () => {
   const [messageState, setMessageState] = useState("");
   const [messageShow, setMessageShow] = useState(false);
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
   const sendingMessage = {
     message: "Odesílám zprávu...",
     state: "sending",
@@ -53,6 +53,7 @@ const ContactUs = () => {
     if (!form.current) return;
     const inputs = form.current.querySelectorAll("input");
     const textarea = form.current.querySelector("textarea");
+    if (!inputs || !textarea) return;
 
     inputs.forEach(input => {
       input.value = "";
@@ -61,7 +62,7 @@ const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="contact-form">
+    <form ref={form} onSubmit={(e) => sendEmail} className="contact-form">
       <FormMessageOverlay
         message={messageText}
         state={messageState}
@@ -119,7 +120,6 @@ const ContactUs = () => {
       <label>
         <textarea
           className="input-area"
-          type="text"
           placeholder="Obsah zprávy"
           name="message"
           required

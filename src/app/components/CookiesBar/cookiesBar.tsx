@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
+"use client";
 
+import { useState, useEffect } from "react";
 import "./cookiesBar.scss";
 
 const CookieBar = () => {
@@ -15,7 +16,7 @@ const CookieBar = () => {
     }
   }, []);
 
-  const setCookie = (name, value, days) => {
+  const setCookie = (name: string, value: string, days: number) => {
     const date = new Date();
     date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
     document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
@@ -39,7 +40,7 @@ const CookieBar = () => {
     <div className="cookies-banner">
       <p>
         Tento web používá cookies, aby vám poskytl lepší zážitek. Kliknutím na
-        "Souhlasím" povolíte všechny cookies, což nám pomáhá s analýzou a
+        &#34;Souhlasím&#34; povolíte všechny cookies, což nám pomáhá s analýzou a
         vylepšením našich služeb.
       </p>
       <button onClick={handleAcceptAll} className="cookies-button accepted">
