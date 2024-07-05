@@ -6,6 +6,14 @@ body {
   color: $dark-blue;
   animation: fadeIn 1s ease;
   overflow-x: hidden;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  footer {
+    margin-top: auto;
+  }
 
   & > :not(nav):not(footer):not(script):not(header):not(.welcome-page):not(h1) {
     &:nth-child(odd) {
@@ -76,6 +84,7 @@ button {
 }
 
 .container {
+  width: 100%;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;

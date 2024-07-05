@@ -10,42 +10,8 @@ interface Props {
 }
 
 const Footer = ({ manualFixed = null }: Props) => {
-  const [fixed, setIsFixed] = useState(false);
-
-  useEffect(() => {
-    handleScroll();
-    fixed && setBodyMarginBottom();
-
-    window.addEventListener("resize", setBodyMarginBottom);
-
-    return () => {
-      window.removeEventListener("resize", setBodyMarginBottom);
-    };
-  });
-
-  const handleScroll = () => {
-    if (manualFixed) {
-      setIsFixed(true);
-    } else if (manualFixed === false) {
-      setIsFixed(false);
-    } else {
-      document.body.offsetHeight < window.innerHeight
-        ? setIsFixed(true)
-        : setIsFixed(false);
-    }
-  };
-
-  const setBodyMarginBottom = () => {
-    const footer = document.querySelector("footer");
-    if (!footer) return;
-
-    const footerHeight = footer.offsetHeight;
-
-    document.body.style.marginBottom = `${footerHeight}px`;
-  };
-
   return (
-    <footer className={`${fixed ? "fixed" : ""}`}>
+    <footer>
       <section className="container d-flex align-items-center justify-content-around my-3 flex-wrap">
         <Image
           src="../assets/logo/logotype-svg/Color/Logo-compact-cl.svg"
