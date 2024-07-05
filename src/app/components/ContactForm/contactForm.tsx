@@ -24,9 +24,9 @@ const ContactUs = () => {
     state: "error",
   };
 
-  const sendEmail = (e: Event) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!form.current) return;
+    if(!form.current) return;
 
     setMessageShow(true);
     setMessageState(sendingMessage.state);
@@ -34,7 +34,7 @@ const ContactUs = () => {
 
     emailjs
       .sendForm("web-form-1994*", "template_lpohw3k", form.current, {
-        publicKey: "Fky7hQJC9nK2drZ7B",
+        publicKey: "DdGtDp6BddeV-iuC9",
       })
       .then(
         () => {
@@ -62,7 +62,7 @@ const ContactUs = () => {
   };
 
   return (
-    <form ref={form} onSubmit={(e) => sendEmail} className="contact-form">
+    <form ref={form} onSubmit={sendEmail} className="contact-form">
       <FormMessageOverlay
         message={messageText}
         state={messageState}
