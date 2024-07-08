@@ -12,26 +12,23 @@ const aboutMeRoute = () => {
         <article className="">
           <h5 className="fw-bold">Lucie Birulová</h5>
           <p className="">
-            Jmenuji se Lucie Birulová a specializuji se na komplexní správu
-            účetnictví a daňové evidence pro&nbsp;podnikatele. Spolupracuji převážně
-            s obchodními společnostmi a podnikajícími fyzickými&nbsp;osobami&nbsp;-&nbsp;OSVČ.
+            Jmenuji se Lucie Birulová a jsem nadšenec do účetnictví a daní.
+            Pomáhám podnikatelům nastavit efektivní účetní strategie zaměřené na
+            odvody státu. Mým cílem je najít pro Vás tu nejvýhodnější cestu s
+            ohledem na Vaše vize a cíle.
           </p>
-          <p className="">
-            Mou doménou je vedení podvojného účetnictví, daňové evidence,
-            odborné konzultace, analýzy odvodů a další administrativní služby -
-            vše šité na míru Vašim potřebám.
-          </p>
-          <p className="">
-            Kromě toho se věnuji vzdělávání podnikatelů. Mým cílem je ukázat Vám
-            – jasně, srozumitelně a hlavně prakticky, účetní a daňové principy,
+          <p>
+            Zároveň si zakládám na tom, aby vše bylo v souladu se zákony. Kromě
+            toho se věnuji vzdělávání podnikatelů. Mým cílem je ukázat Vám –
+            jasně, srozumitelně a hlavně prakticky, účetní a daňové principy,
             které by měl znát každý podnikatel. Výsledkem toho zefektivníte svou
             účetní agendu, budete znát možnosti, jak ušetřit na odvodech státu a
-            v mnoha případech zmírníte svou administrativní zátěž. A co je
-            nejdůležitější, pomohu Vám vytvářet prostor pro růst Vašeho&nbsp;podnikání.
+            v mnoha případech zmírníte svou administrativní zátěž.
           </p>
-          <p className="">
-            Pokud hledáte spolehlivou účetní a parťáka ve světě podnikání,
-            neváhejte mě kontaktovat. Budu&nbsp;se&nbsp;těšit na spolupráci!
+          <p>
+            A co je nejdůležitější, získáte více prostoru pro budování svého
+            podnikání. Pokud hledáte spolehlivou účetní a parťáka ve světě
+            podnikání, neváhejte mě kontaktovat. Budu se těšit na spolupráci!
           </p>
         </article>
         <Image
