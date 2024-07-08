@@ -30,14 +30,11 @@ const Page = () => {
       </section>
       <section className="page-services my-services container text-center">
         <h2>Co vše pro Vás mohu udělat</h2>
-        <Card header="Vedení podvojného účetnictví" />
         <Card header="Odborné poradenství" />
+        <Card header="Vedení podvojného účetnictví" />
         <Card header="Vedení daňové evidence" />
-        <Card header="Zpracování dílčích inventur" />
         <Card header="Zpracování účetní závěrky" />
         <Card header="Zpracování podkladů pro daňová přiznání" />
-        <Card header="Zastupování před úřady" />
-        <Card header="Elektronický šanon" />
         <Card header="Další administrativní služby na míru" />
       </section>
       <section className="page-services call-me">
@@ -60,11 +57,11 @@ const Page = () => {
         />
         <Card
           header="Individuální přístup"
-          paragraphText="Účetnictví pro mě není jen o slepém zadávání dokladů. Je pro mě důležité poznat člověka a jeho byznys, o kterém účtuji. Získám tak ucelený přehled, díky kterému klientovi dokážu dát jasnější pohled, zda konkrétní náklad v účetnictví může figurovat či jaký má dopad na výsledek hospodaření."
+          paragraphText="Účetnictví pro mě není jen o slepém zadávání dokladů. Je pro mě důležité poznat podnikatele a jeho byznys. Získám tak ucelený přehled, díky kterému Vám mohu dát jasný pohled na danou situaci a posoudit dopad konkrétního případu na Váš výsledek hospodaření."
         />
         <Card
-          header="Elektronická archivace"
-          paragraphText="Mým cílem je možnost pracovat odkudkoliv. Tomu nahrává dnešní doba elektronické komunikace, a proto u většiny svých klientů vedu šanon s doklady v elektronické podobě. Není to výhoda pouze pro mě, ale i pro mé klienty, kteří mají své doklady kdykoli k dispozici v online uložišti."
+          header="Vše v souladu se zákonem"
+          paragraphText="Mým cílem je pomáhat Vám nacházet ty nejvýhodnější cesty. Je pro mě ale důležité, aby vše bylo v souladu se zákonem. Nikdy nejdu za hranu zákona, nepodporuji podnikatele v pochybných účetních praktikách a už vůbec ne v krácení daní."
         />
       </section>
       <section className="page-services write-me">
