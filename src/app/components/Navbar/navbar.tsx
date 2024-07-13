@@ -46,6 +46,9 @@ const Navbar = () => {
             <Link href="/about" className={`${pathname === "/about" ? "active" : ""}`}>O mně</Link>
           </li>
           <li>
+            <Link href="/poradenstvi" className={`${pathname === "/poradenstvi" ? "active" : ""}`}>Poradenství</Link>
+          </li>
+          <li>
             <Link href="/sluzby" className={`${pathname === "/sluzby" ? "active" : ""}`}>Služby</Link>
           </li>
           <li>
