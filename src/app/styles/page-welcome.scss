@@ -2,21 +2,11 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  display: grid;
-  grid-auto-rows: minmax(auto, max-content);
+  display: flex;
   justify-content: center;
   align-content: start;
   justify-items: center;
-  gap: 50px;
-
-  @include media-max-width(460px) {
-    gap: 30px;
-  }
-
-  @include media-max-width(400px) {
-    gap: 10px;
-  }
-
+  flex-wrap: wrap;
   animation: fadeIn 1.5s ease forwards;
 
   &:before {
@@ -35,8 +25,7 @@
   }
 
   h1 {
-    grid-column: span 2;
-    grid-row: 2;
+    width: 100%;
 
     @include media-max-width(460px) {
       font-size: 45px;
@@ -56,22 +45,10 @@
   }
 
   .btn {
-    grid-row: 3;
     width: 440px;
     height: 165px;
     font-size: 40px;
     margin-bottom: 30px;
-
-    @include media-max-width(1000px) {
-      &:first-of-type {
-        grid-column: span 2;
-      }
-
-      &:last-of-type {
-        grid-column: span 2;
-        grid-row: 4;
-      }
-    }
 
     @include media-max-width(460px) {
       width: 80%;
@@ -79,6 +56,14 @@
       min-height: 130px;
       font-size: 30px;
       padding-inline: 1rem;
+    }
+  }
+
+  div:last-child {
+    @include media-max-width(1000px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
   }
 }

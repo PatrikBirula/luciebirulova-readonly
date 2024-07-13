@@ -217,9 +217,16 @@ button {
   }
 }
 
+.w {
+  &-100 {
+    width: 100%;
+  }
+}
+
 .size {
   &-auto {
     width: auto;
     height: auto;
   }
 }
+
