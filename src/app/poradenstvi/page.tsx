@@ -2,6 +2,7 @@ import "../styles/index.scss";
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
 import Button from "../components/Buttons/button";
+import References from "../components/References/references";
 import BulletList from "../components/BulletList/bulletList";
 import {
   introduction,
@@ -103,6 +104,10 @@ const coursesRoute = () => {
           je pomoci Vám dosáhnout finanční stability a růstu, což Vám v konečném
           důsledku přinese více peněz, než kolik za mé služby zaplatíte.
         </p>
+      </section>
+      <section className="references container text-center">
+        <h2>Reference</h2>
+        <References />
       </section>
       <Footer />
     </>
