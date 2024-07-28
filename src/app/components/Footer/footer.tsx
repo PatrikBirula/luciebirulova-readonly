@@ -39,12 +39,12 @@ const Footer = ({ manualFixed = null }: Props) => {
         </ul>
         <ul className="text-center">
           <li>
-            <a href="/src/assets/pdf/VOP.pdf" target="_blank">
+            <a href="../assets/pdf/VOP.pdf" target="_blank">
               Obchodní podmínky
             </a>
           </li>
           <li>
-            <a href="/src/assets/pdf/GDPR.pdf" target="_blank">
+            <a href="../assets/pdf/GDPR.pdf" target="_blank">
               Zpracování osobních údajů
             </a>
           </li>
