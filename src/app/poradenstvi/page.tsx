@@ -1,6 +1,7 @@
 import "../styles/index.scss";
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
+import Button from "../components/Buttons/button";
 import BulletList from "../components/BulletList/bulletList";
 import {
   introduction,
@@ -49,6 +50,14 @@ const coursesRoute = () => {
         <h2 className="color-green">Díky osobnímu poradenství</h2>
         <BulletList items={individualConsulting} />
       </section>
+      <h2 className="text-center">
+        Cena <span className="color-green">380,-&nbsp;Kč / započatých 15 minut</span>
+      </h2>
+      <Button
+        buttonText="Mám zájem o poradenství"
+        src="/kontakty"
+        customClasses="mx-auto px-1"
+      />
       <section className="container page-consulting">
         <h2 className="color-green text-center">Časté dotazy podnikatelů</h2>
         <h4 className="text-center">
