@@ -1,3 +1,5 @@
+/** @format */
+
 const reviews = [
   {
     id: 0,
@@ -93,6 +95,47 @@ const reviews = [
     id: 15,
     name: "Ter Pechoušková",
     review: "Skvělé služby, příjemná komunikace :)",
+  },
+  {
+    id: 16,
+    name: "Veronika Rohlová",
+    review:
+      "Jsem velmi vděčná za Lucku Birulovou. Měla jsem ohromné štěstí, když jsem začala podnikat jako OSVČ. Vůbec jsem nevěděla kde a jak začít. Lucka rozumí své práci na 100% a velmi ochotně poradí i po telefonu. Plně jí důvěřuji a jsem moc ráda, že jí mám. DOPORUČUJI ⭐⭐⭐⭐⭐",
+  },
+  {
+    id: 17,
+    name: "Petra Doležalová",
+    review: "Paní Lucka je opravdu člověk na svém místě. Ochotně a s radostí poradí, co se týká podnikání a odvodů OSVČ. Vřele doporučuji. Cením lidský přístup ke klintům. Vše trpělivě vysvětlí a odpoví na otázky, klidně několikrát, dokud není jasno. 👍👍👍",
+  },
+  {
+    id: 18,
+    name: "Štěpán Mucha",
+    review: "Zdravím, rád bych se zde podělil o svoji velmi přívětivost zkušenost se slečnou Birulovou, měl jsem problémy týkající se podnikání, nedostatek informací a nechápavou hlavu a na této adrese jsem se dozvěděl vše co jsem potřeboval a chtěl. Rozhodně doporučuji spolupráci s touto účetní, provede vás od začátku, poradí, připraví a vysvětlí.",
+  },
+  {
+    id: 19,
+    name: "Renáta Sedlářová",
+    review: "Moc ráda bych doporučila paní Lucii, která má na svém profilu super praktické rady, snadno pochopitelné pro laika. Pokud máte problém, co se týče účetnictví, nevíte si s něčím rady, doporučuji ozvat se paní Lucii! Vážím si velmi toho, že jako jedna z mála zareagovala i na dotaz ve zprávě. Její odpovědi jsou srozumitelné a navíc podložené zákonem s paragrafy, kde si můžete i tyto informace ověřit.",
+  },
+  {
+    id: 20,
+    name: "Backstage Books",
+    review: "Paní Lucie Birulová je skvělá účetní, která nám pomáhá s rozvojem podnikání v knižním světě. Vždy je nesmírně profesionální, avšak empatická, trpělivá a laskavá. Velice si vážíme jejího osobního a lidského přístupu a jsme moc rádi, že se na ni vždy můžeme spolehnout v každé situaci a vždy se dočkáme návrhu řešení na různé situace, s nimiž se v podnikatelských vodách potýkáme. Děkuji, že takoví lidé podnikají a můžeme se jimi inspirovat.",
+  },
+  {
+    id: 21,
+    name: "Kryštof",
+    review: "S neskutečnou vděčností bych chtěl Lucii doporučit, nejen díky její široké znalosti oboru, ale i talentu co se týče práce s lidmi. Z důvodu mých známek z účetnictví (nestačily by k připuštění k maturitě), jsem Lucii na doporučení oslovil, protože jsem nutně potřeboval doučování. S Lucií byla perfektní domluva. Bylo možné se sejít i online, a už po pár hodinách jsem začínal vidět pokrok. Když mi něco nešlo, tak byla velmi trpělivá, po chvíli následovalo jasné vysvětlení, a když jsem pochopil úplné základy, tak mě účetnictví dokonce i začalo bavit. Díky tomu všemu jsem se zlepšil v účtu natolik, že na to poukázala i moje učitelka která sama nevěřila, že by to v mém případě vůbec šlo. Za mě člověk za kterým jít, všechno naprosto správně.",
+  },
+  {
+    id: 22,
+    name: "Matej Kusy",
+    review: "Skvělá komunikace a spoustu užitečných rad. Na Lucce je poznat, že jí práce baví a to je skvělý.",
+  },
+  {
+    id: 23,
+    name: "Veronika Valsová",
+    review: "V začátku podnikání, jsem hledala účetní. Ideálně takovou, která bude pracovati i online, a našla jsem paní Birulovou. Pomohla mi s celkovým přehledem v začátcích, ujasnila pojmy, vysvětlila, poradila, vše shrnula a trpělivě opakovala, dokud jsem nerozuměla. Připravila mi přehledně a precizně daňové přiznání a já jsem ráda, že jsem našla právě ji. V budoucnu se na ni budu ráda znovu obracet, protože je to nejlepší volba. Děkuji Vám!",
   },
 ];
 
