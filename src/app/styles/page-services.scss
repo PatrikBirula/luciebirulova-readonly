@@ -181,7 +181,7 @@ header.page-services {
     .service-card-wrapper {
       text-align: center;
       width: 100%;
-      max-width: 380px;
+      min-width: 380px;
     }
   }
 }
