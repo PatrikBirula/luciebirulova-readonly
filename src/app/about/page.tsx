@@ -1,3 +1,5 @@
+/** @format */
+
 import "../styles/index.scss";
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
@@ -15,12 +17,12 @@ const aboutMeRoute = () => {
             Jmenuji se Lucie Birulová a jsem nadšenec do účetnictví a daní.
             Pomáhám podnikatelům nastavit efektivní účetní strategie zaměřené na
             odvody státu. Mým cílem je najít pro Vás tu nejvýhodnější cestu s
-            ohledem na Vaše vize a cíle.
+            ohledem na Vaše vize a cíle. Zároveň si zakládám na tom, aby vše bylo
+            v souladu se zákony.
           </p>
           <p>
-            Zároveň si zakládám na tom, aby vše bylo v souladu se zákony. Kromě
-            toho se věnuji vzdělávání podnikatelů. Mým cílem je ukázat Vám –
-            jasně, srozumitelně a hlavně prakticky, účetní a daňové principy,
+            Kromě toho se věnuji vzdělávání podnikatelů. Mým cílem je ukázat Vám
+            – jasně, srozumitelně a hlavně prakticky, účetní a daňové principy,
             které by měl znát každý podnikatel. Výsledkem toho zefektivníte svou
             účetní agendu, budete znát možnosti, jak ušetřit na odvodech státu a
             v mnoha případech zmírníte svou administrativní zátěž.
