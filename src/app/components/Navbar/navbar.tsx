@@ -52,12 +52,6 @@ const Navbar = () => {
             <Link href="/sluzby" className={`${pathname === "/sluzby" ? "active" : ""}`}>Služby</Link>
           </li>
           <li>
-            <Link href="/kurzy" className={`${pathname === "/kurzy" ? "active" : ""}`}>Kurzy</Link>
-          </li>
-          <li>
-            <Link href="/ebooks" className={`${pathname === "/eBooks" ? "active" : ""}`}>E-booky</Link>
-          </li>
-          <li>
             <Link href="/kontakty" className={`${pathname === "/kontakty" ? "active" : ""}`}>Kontakt</Link>
           </li>
         </ul>

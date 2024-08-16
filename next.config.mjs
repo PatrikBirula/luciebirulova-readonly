@@ -23,6 +23,11 @@ const nextConfig = {
         destination: '/kontakty',
         permanent: true,
       },
+      {
+        source: '/:path*',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
 };
