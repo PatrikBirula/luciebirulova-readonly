@@ -16,11 +16,6 @@ export default function Home() {
         <Link href="/poradenstvi" className="btn">
           Poradenství
         </Link>
-      </div>
-      <div className="w-100 d-flex justify-content-around">
-        <Link href="/kurzy" className="btn">
-          Online kurzy
-        </Link>
         <Link href="/sluzby" className="btn">
           Vedení účetnictví a&nbsp;daňové evidence
         </Link>
