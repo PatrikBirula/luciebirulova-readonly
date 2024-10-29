@@ -10,7 +10,6 @@
   @include media-max-width(1130px) {
     grid-template-columns: 1fr;
     justify-items: center;
-    margin-inline: 1rem;
     margin-bottom: 1rem;
 
     img {
