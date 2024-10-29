@@ -33,6 +33,7 @@ const ContactUs = () => {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (!form.current) return;
     if (!checkboxIsChecked) {
       setIsCheckboxError(true);
       return; // Zabrání odeslání formuláře
