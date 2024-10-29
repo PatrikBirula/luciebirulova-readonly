@@ -28,6 +28,12 @@ body {
   header {
     animation: fadeIn 2s ease;
   }
+
+  @include media-max-width(900px) {
+    section {
+      max-width: 95% !important;
+    }
+  }
 }
 
 h1 {
@@ -88,11 +94,6 @@ button {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-
-  @include media-max-width(900px) {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 }
 
 .btn {

@@ -5,6 +5,7 @@ nav {
   border-bottom: 10px solid transparent;
   border-image: $main-gradient;
   border-image-slice: 1;
+  padding-inline: 0.5rem;
 }
 
 .nav-wrapper {
@@ -13,7 +14,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-block: 0.625rem;
-  padding-inline: 0.5rem;
 
   @include media-max-width(992px) {
     padding-block: 1rem;

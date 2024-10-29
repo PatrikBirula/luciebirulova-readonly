@@ -10,7 +10,10 @@
 
   @include media-max-width(550px) {
     grid-template-columns: 1fr;
-    padding-inline: 1rem;
+
+    .service-card-wrapper {
+      margin-inline: 1rem;
+    }
   }
 
   h2 {

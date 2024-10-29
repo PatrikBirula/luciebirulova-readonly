@@ -5,6 +5,7 @@
   margin-bottom: 3rem;
   text-align: left;
   font-size: 22px;
+  width: calc(100% - 40px) !important;
 
   @include media-max-width(450px) {
     font-size: 1rem !important;
