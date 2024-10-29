@@ -40,6 +40,18 @@
     }
   }
 
+  .checkbox-wrapper {
+    grid-column: span 2;
+
+    a {
+      color: $green;
+    }
+
+    .error-checkbox {
+      outline: 2px solid red;
+    }
+  }
+
   .btn-primary {
     width: 200px;
     height: 76px;
@@ -51,11 +63,17 @@
     border-width: 0.313rem;
     border-radius: 2.375rem;
     font-size: 30px;
+    cursor: pointer;
 
     &:hover {
       background-color: $green !important;
       color: $white !important;
       border-color: $green !important;
+    }
+
+    &.disabled {
+      color: gray !important;
+      border-color: gray;
     }
   }
 

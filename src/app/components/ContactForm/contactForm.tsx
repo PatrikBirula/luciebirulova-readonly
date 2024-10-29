@@ -9,6 +9,13 @@ const ContactUs = () => {
   const [messageText, setMessageText] = useState("");
   const [messageState, setMessageState] = useState("");
   const [messageShow, setMessageShow] = useState(false);
+  const [checkboxIsChecked, setCheckboxIsChecked] = useState(false);
+  const [isCheckboxError, setIsCheckboxError] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setCheckboxIsChecked(!checkboxIsChecked);
+    setIsCheckboxError(false);
+  };
 
   const form = useRef<HTMLFormElement>(null);
   const sendingMessage = {
@@ -26,7 +33,10 @@ const ContactUs = () => {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if(!form.current) return;
+    if (!checkboxIsChecked) {
+      setIsCheckboxError(true);
+      return; // Zabrání odeslání formuláře
+    }
 
     setMessageShow(true);
     setMessageState(sendingMessage.state);
@@ -126,7 +136,11 @@ const ContactUs = () => {
         />
         <span>Zpráva*</span>
       </label>
-      <input type="submit" value="Odeslat" className="btn btn-primary" />
+      <div className="checkbox-wrapper">
+        <input className={isCheckboxError ? "error-checkbox" : "inherit"} type="checkbox" checked={checkboxIsChecked} onChange={handleCheckboxChange}></input>
+        <span>Odesláním formuláře souhlasím s <a href="../assets/pdf/VOP.pdf" target="_blank">obchodními podmínkami</a> a se zásadami <a href="../assets/pdf/GDPR.pdf" target="_blank">zpracování osobních údajů.</a></span>
+      </div>
+      <input type="submit" value="Odeslat" className={`btn btn-primary ${!checkboxIsChecked && "disabled"}`} />
     </form>
   );
 };
