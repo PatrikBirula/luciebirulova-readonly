@@ -1,52 +1,58 @@
+/** @format */
+
 export const introduction = [
-  `Slyšeli jste, že <strong>paušální daň</strong> je skvělá možnost, <strong>jak ušetřit na státních odvodech.</strong>`,
-  `<strong>Zvažujete registraci</strong> k paušální dani, ale váháte, <strong>zda je pro Vás výhodná.</strong>`,
-  `Přemýšlíte, <strong>jak ušetřit na odvodech</strong>, ale o paušální dani, podmínkách a možnostech využití <strong>víte jen velmi málo.</strong>`,
-  `Jako OSVČ <strong>odvádíte ročně vysoké částky</strong> na dani a pojistném a <strong>uvažujete, zda by paušální daň byla výhodnější.</strong>`,
-  `Už jste <strong>četli mnoho článků o paušální dani</strong>, ale stále v tom <strong>nemáte jasno</strong>, protože jste nikde nezískali kompletní informace.`,
-  ` Netušíte, <strong>kolik peněz budete platit</strong>, pokud vstoupíte do režimu paušální daně.`,
-  `Slyšeli jste, že <strong>v paušální dani se platí měsíčně tři různé částky</strong>, ale nevíte jak zjistit, <strong>kterou budete platit právě Vy</strong>.`,
-  `<strong>Máte obavy</strong>, že kvůli vstupu do režimu paušální daně, <strong>budete nakonec platit víc, než v běžném režimu.</strong>`,
-  `<strong>Zvažujete paušální daň</strong>, ale nejste si jistí, zda budete muset vést nějakou <strong>specifickou evidenci</strong>.`,
+  `Paušální daň by mohla být skvělá možnost, <strong>jak ušetřit na odvodech státu</strong>.`,
+  `<strong>Snížila by mi administrativu</strong> v rámci podnikání na minimum.`,
+  `Ušetřila by mi <strong>spoustu času</strong>.`,
+  `Ušetřila by mi <strong>náklady za zpracování daňového přiznání</strong> od účetní.`,
 ];
 
 export const imagine = [
-  `Věděli byste přesně, <strong>co je podstatou paušální daně</strong>.`,
-  `Měli byste přehled o tom, <strong>kdo může využít režim paušální daně</strong> a kdo naopak ne a <strong>jaké jsou následky porušení podmínek</strong> v průběhu roku.`,
-  `Měli byste k dispozici <strong>všechny důležité informace o paušální dani na jednom místě</strong> a <strong>ušetřili tak čas</strong> strávený hledáním v různých článcích.`,
-  `Znali byste přesný postup, <strong>jak určit pásmo paušální daně</strong>, které se na Vás vztahuje.`,
-  `Měli byste <strong>přehled o požadované evidenci</strong> v rámci režimu paušální daně.`,
-  `Měli byste <strong>informace o důležitých termínech</strong> vztahujících se k paušální dani, <strong>o registraci a ukončení režimu paušální daně</strong>.`,
+  `Váháte, zda se Vám <strong>paušální daň vůbec vyplatí</strong>.`,
+  `Netušíte, jestli splňujete <strong>podmínky pro paušální daň</strong>.`,
+  `Nejste si jistí, <strong>kolik peněz za paušální daň budete platit</strong>.`,
+  `Bojíte se, abyste v režimu paušální daně <strong>neplatili za odvody ještě víc, než nyní</strong>.`,
+  `Nevíte, jestli Vás po vstupu do paušální daně <strong>čekají nějaké povinnosti</strong>.`,
+  `Nevíte, <strong>na co si dát pozor</strong>, abyste podmínky pro paušální daň během roku neporušili.`,
 ];
 
 export const description = [
-  `V kurzu Paušální daň 2024 <strong>získáte komplexní vhled do principů fungování paušální daně</strong>. Seznámíte se s <strong>podmínkami</strong>, které je nutné v režimu
-    paušální daně splňovat a s důsledky jejich případného <strong>porušení během roku</strong>. Získáte přehled o tom, <strong>jaké platby OSVČ v paušálním režimu hradí</strong> a co
-    zahrnují. Rovněž se společně podíváme na <strong>termíny přihlášení, proces registrace a platební specifika</strong> spojená s paušální daní.`,
-  `V kurzu se také zaměříme na to, jak správně určit, jaké <strong>pásmo paušální daně se na Vás vztahuje</strong>. Provedu Vás <strong>základními principy výpočtu daně z příjmů, sociálního a zdravotního pojištění</strong>, abyste byli schopni porovnat
-    <strong>rozdíl mezi náklady na paušální daň a náklady, které byste platili v běžném režimu</strong>. Na konkrétním příkladu podnikatele se pak podíváme na <strong>srovnání v praxi</strong>. V závěru si ukážeme, jaká specifika
-    je třeba si pohlídat <strong>při prvním vstupu do paušálního režimu</strong> a <strong>aspekty povinné evidence</strong>.`,
+  `Získejte jistotu s <strong>online kurzem Paušální daň 2025</strong>, který Vám, jako podnikateli, jasně a
+  prakticky ukáže, co potřebujete o paušální dani skutečně vědět. Tento kurz je navržen tak,
+  abyste získali <strong>ty nejdůležitější informace</strong>, a to bez zbytečných detailů, které by Vás zbytečně
+  zahltily. Ty má znát především účetní ;-). Cílem je, abyste získali tu největší hodnotu –
+  <strong>doporučení, zda je pro Vás paušální daň výhodná</strong>, anebo zda raději podávat daňové přiznání
+  a přehledy OSVČ.`,
+  `Na detailní znalost zákona, propočty a analýzu jsem tu já . Součástí kurzu je má osobní
+  podpora, v rámci které provedu propočet výhodnosti paušální daně <strong>Vašemu podnikání na míru </strong>.`,
 ];
 
 export const courseContent = [
-  `<strong>Co je to</strong> paušální daň`,
-  `<strong>Kdo může využít</strong> paušální daň`,
-  `<strong>Co když poruším podmínky</strong> v průběhu roku - příklady`,
-  `<strong>Obrat</strong> 2 mil. Kč x <strong>Příjem</strong> 2 mil. Kč`,
-  `<strong>Placení paušální daně</strong> - kdy, kolik a kam`,
-  `Principy výpočtu <strong>daně z příjmů</strong>`,
-  `Principy výpočtu <strong>sociálního a zdravotního pojištění</strong>`,
-  `<strong>Tři pásma paušální daně</strong> a jak určit to správné`,
-  `<strong>Pro koho se hodí</strong> režim paušální daně - příklad`,
-  `<strong>Pro koho se nehodí</strong> režim paušální daně - příklad`,
-  `<strong>Registrace</strong> k paušální dani`,
-  `<strong>Ukončení</strong> režimu paušální daně`,
-  `<strong>Povinnosti</strong> související s režimem paušální daně`,
+  `<strong>Nebudete muset trávit hodiny času</strong> v obrovském množství informací na internetu.`,
+  `Všechny potřebné informace o paušální dani najdete <strong>na jednom místě</strong>.`,
+  `Získáte odborný pohled na to, <strong>zda je pro Vaše podnikání paušální daň tou správnou cestou</strong>.`,
+];
+
+export const aboutCourse = [
+  `Dozvíte se, co je to paušální daň a jak to celé funguje.`,
+  `Budete vědět, jaké jsou výhody a nevýhody paušální daně.`,
+  `Získáte příležitost snížit svou administrativu na minimum.`,
+  `Zjistíte, jaké jsou podmínky paušální daně.`,
+  `Získáte přehled o tom, kolik paušální daň stojí a kolik budete platit právě Vy, pokud se do paušální daně rozhodnete vstoupit.`,
+  `Neuniknou Vám důležité termíny a povinnosti, které Vás v souvislosti s paušální daní čekají.`,
+  `Získáte analýzu Vašich odvodů na míru a posouzení výhod / nevýhod režimu paušální daně pro Vaše podnikání.`,
+  `Společně na 20minutové konzultaci, která je součástí kurzu, doladíme detaily.`
+];
+
+export const bonusBullets = [
+  `Odčitatelné položky od základu daně`,
+  `Slevy na dani`,
 ];
 
 export const bonus = [
-  `Jako dárek ode mě získáte e-book <strong>Odčitatelné položky od základu daně</strong> a e-book <strong>Slevy na dani</strong>, ve kterých se dozvíte, <strong>jaké daňové úlevy mohou využít fyzické osoby, které jsou ve standardním režimu</strong> 
-  podávání daňového přiznání a za <strong>jakých podmínek</strong>. E-booky pro Vás mohou být <strong>užitečnou pomůckou v rozhodnutí</strong>, zda je pro Vás režim paušální daně vhodný, nebo zda je pro Vás výhodnější zůstat u podávání daňového přiznání.`,
+  `díky kterým si doplníte znalosti o tom, jaké daňové výhody mohou uplatňovat fyzické osoby
+  v daňovém přiznání, což může být další pomůckou v rozhodnutí, zda je pro Vás paušální daň
+  tou správnou cestou.`,
 ];
 
 export const courseLineUp = [
@@ -60,18 +66,17 @@ export const answears = [
 ];
 
 export const forWhoYes = [
-  `Pro podnikatele – fyzické osoby, kteří podnikají na hlavní činnost.`,
-  `Pro podnikatele – fyzické osoby, kteří současně nejsou zaměstnaní na HPP (není jim ze mzdy odváděna zálohová daň).`,
-  `Pro podnikatele – fyzické osoby, kteří jsou zaměstnaní pouze na DPP nebo DPČ a zároveň nepodepsali u zaměstnavatele prohlášení poplatníka.`,
-  `Pro podnikatele – fyzické osoby, jejichž podnikání se považuje za vedlejší, ale NE z důvodu zaměstnání.`,
-  `Pro podnikatele – fyzické osoby - neplátce DPH.`,
+  `Pro podnikatele – fyzické osoby, kteří podnikají na <strong>hlavní činnost.</strong>`,
+  `Pro podnikatele – fyzické osoby, kteří podnikají na <strong>vedlejší činnost, ale NE z&nbsp;důvodu zaměstnání</strong>.`,
+  `Pro podnikatele – fyzické osoby, kteří jsou <strong>zaměstnaní pouze na DPP nebo DPČ a zároveň nepodepsali u zaměstnavatele prohlášení poplatníka</strong>.`,
+  `Pro podnikatele – fyzické osoby - <strong>neplátce DPH</strong>.`,
 ];
 
 export const forWhoNo = [
-  `Pro podnikatele – fyzické osoby, kteří jsou zároveň zaměstnaní na hlavní pracovní poměr (je jim odváděna ze mzdy zálohová daň).`,
-  `Pro podnikatele – fyzické osoby v insolvenci.`,
+  `Pro podnikatele – fyzické osoby, <strong>kteří jsou zároveň zaměstnaní na hlavní pracovní poměr</strong> (je jim odváděna ze mzdy zálohová daň).`,
+  `Pro podnikatele – fyzické osoby <strong>v&nbsp;insolvenci</strong>.`,
   `Pro podnikatele – fyzické osoby, kteří jsou zároveň společníky veřejné obchodní společnosti nebo komplementářem komanditní společnosti.`,
-  `Pro podnikatele – plátce DPH.`,
-  `Pro podnikatele – fyzické osoby, kteří mají příjmy vyšší než 2 miliony korun ročně.`,
-  `Pro podnikatele – fyzické osoby, kteří mají zároveň i příjmy z dlouhodobého pronájmu vyšší než 50 tisíc korun ročně.`,
+  `Pro podnikatele – <strong>plátce DPH</strong>.`,
+  `Pro podnikatele – fyzické osoby, <strong>kteří mají příjmy vyšší než 2 miliony korun ročně</strong>.`,
+  `Pro podnikatele – fyzické osoby, kteří mají zároveň i <strong>příjmy z&nbsp;dlouhodobého pronájmu vyšší než 50 tisíc korun ročně</strong>.`,
 ];

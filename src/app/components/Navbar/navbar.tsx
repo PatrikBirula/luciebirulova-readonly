@@ -52,6 +52,9 @@ const Navbar = () => {
             <Link href="/sluzby" className={`${pathname === "/sluzby" ? "active" : ""}`}>Služby</Link>
           </li>
           <li>
+            <Link href="/pausalni-dan" className={`${pathname === "/pausalni-dan" ? "active" : ""}`}>Paušální daň 2025</Link>
+          </li>
+          <li>
             <Link href="/kontakty" className={`${pathname === "/kontakty" ? "active" : ""}`}>Kontakt</Link>
           </li>
         </ul>
