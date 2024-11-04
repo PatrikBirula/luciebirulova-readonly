@@ -9,6 +9,10 @@
       flex-direction: column;
     }
 
+    @include media-max-width(500px) {
+      margin-top: 40px;
+    }
+
     img {
       margin-right: 1rem;
       border-radius: 15px;
