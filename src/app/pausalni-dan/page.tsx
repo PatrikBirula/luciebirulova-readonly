@@ -39,7 +39,6 @@ const indentifikovanaOsobaRoute = () => {
         <article className="fs-22">
           <p dangerouslySetInnerHTML={{ __html: description[0] }} />
           <p dangerouslySetInnerHTML={{ __html: description[1] }} />
-          <BulletList items={aboutCourse} />
         </article>
         <h2 className="text-center color-green">Co absolvováním kurzu&nbsp;získáte</h2>
         <BulletList items={aboutCourse} />
@@ -48,7 +47,7 @@ const indentifikovanaOsobaRoute = () => {
           <References />
         </section>
         <h2 className="text-center">
-          Cena <span className="color-green">1111,-&nbsp;Kč</span>
+          Zvýhodněná cena v předprodeji <span className="color-green">1.555,-&nbsp;Kč</span>, platí do <span className="color-green">13.11.2024</span><br />poté 2.888,-&nbsp;Kč
         </h2>
         <Button
           buttonText="Objednat kurz"
@@ -81,7 +80,7 @@ const indentifikovanaOsobaRoute = () => {
           </li>
           <li>
           V&nbsp;posledním kroku si naplánujeme <strong>online setkání</strong> (20 minut), kde Vám ukážu
-          <strong>výsledky analýzy</strong>, zodpovím Vaše <strong>doplňující dotazy</strong> a získáte mé
+          <strong> výsledky analýzy</strong>, zodpovím Vaše <strong>doplňující dotazy</strong> a získáte mé
           <strong> doporučení k&nbsp;paušální dani</strong> v&nbsp;kontextu Vašeho podnikání.
           </li>
         </ul>
@@ -90,7 +89,7 @@ const indentifikovanaOsobaRoute = () => {
         <h2 className="text-center color-red">Pro koho kurz není:</h2>
         <BulletList items={forWhoNo} />
         <h2 className="text-center">
-          Cena <span className="color-green">1111,-&nbsp;Kč</span>
+          Zvýhodněná cena v předprodeji <span className="color-green">1.555,-&nbsp;Kč</span>, platí do <span className="color-green">13.11.2024</span><br />poté 2.888,-&nbsp;Kč
         </h2>
         <Button
           buttonText="Objednat kurz"

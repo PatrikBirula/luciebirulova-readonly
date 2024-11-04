@@ -21,15 +21,15 @@ const coursesRoute = () => {
         <p>
           Za dobu své praxe jsem se přesvědčila o tom, že{" "}
           <strong>největší hodnotu má osobní péče</strong>. Setkali jste se
-          někdy s tím, že jste absolvovali nějaký kurz nebo webinář, ale nebyli
-          jste z nich příliš moudří?{" "}
+          někdy s&nbsp;tím, že jste absolvovali nějaký kurz nebo webinář, ale nebyli
+          jste z&nbsp;nich příliš moudří?{" "}
           <strong>Získané informace byly buď velmi obecné</strong>, nebo jste je{" "}
           <strong>nedokázali aplikovat do praxe</strong>, protože Vám chybí
-          hlubší vzdělání v oboru.
+          hlubší vzdělání v&nbsp;oboru.
         </p>
         <p>
-          Vidím dnes a denně, jak se spousta lidí s účetnictvím{" "}
-          <strong>trápí, nerozumí mu a dlouhé hodiny tráví v článcích</strong>,
+          Vidím dnes a denně, jak se spousta lidí s&nbsp;účetnictvím{" "}
+          <strong>trápí, nerozumí mu a dlouhé hodiny tráví v&nbsp;článcích</strong>,
           které jsou ještě obecnější než kurzy a webináře. Navíc zde hrozí velké
           nebezpečí, že{" "}
           <strong>

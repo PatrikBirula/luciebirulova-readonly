@@ -23,12 +23,12 @@ export const description = [
   zahltily. Ty má znát především účetní ;-). Cílem je, abyste získali tu největší hodnotu –
   <strong>doporučení, zda je pro Vás paušální daň výhodná</strong>, anebo zda raději podávat daňové přiznání
   a přehledy OSVČ.`,
-  `Na detailní znalost zákona, propočty a analýzu jsem tu já . Součástí kurzu je má osobní
+  `Na detailní znalost zákona, propočty a analýzu jsem tu já. Součástí kurzu je má osobní
   podpora, v rámci které provedu propočet výhodnosti paušální daně <strong>Vašemu podnikání na míru </strong>.`,
 ];
 
 export const courseContent = [
-  `<strong>Nebudete muset trávit hodiny času</strong> v obrovském množství informací na internetu.`,
+  `<strong>Nebudete muset trávit hodiny času</strong> v&nbsp;obrovském množství informací na internetu.`,
   `Všechny potřebné informace o paušální dani najdete <strong>na jednom místě</strong>.`,
   `Získáte odborný pohled na to, <strong>zda je pro Vaše podnikání paušální daň tou správnou cestou</strong>.`,
 ];
@@ -51,7 +51,7 @@ export const bonusBullets = [
 
 export const bonus = [
   `díky kterým si doplníte znalosti o tom, jaké daňové výhody mohou uplatňovat fyzické osoby
-  v daňovém přiznání, což může být další pomůckou v rozhodnutí, zda je pro Vás paušální daň
+  v&nbsp;daňovém přiznání, což může být další pomůckou v rozhodnutí, zda je pro Vás paušální daň
   tou správnou cestou.`,
 ];
 
