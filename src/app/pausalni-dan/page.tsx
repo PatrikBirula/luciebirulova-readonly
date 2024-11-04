@@ -54,7 +54,7 @@ const indentifikovanaOsobaRoute = () => {
           src="/pausalni-dan/objednavka"
           customClasses="mx-auto px-1"
         />
-        <h2 className="text-center color-green pt-3">Navíc <strong>jako dárek</strong> ode&nbsp;mě získáte dva odborné e-booky:</h2>
+        <h2 className="text-center color-green pt-3">Navíc <strong>jako dárek</strong> ode&nbsp;mě získáte dva odborné e&#8209;booky:</h2>
         <BulletList items={bonusBullets} listClasses="mb-0"/>
         <p
           className="fs-22"
