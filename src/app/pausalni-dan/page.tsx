@@ -46,14 +46,15 @@ const indentifikovanaOsobaRoute = () => {
         <section className="references">
           <References />
         </section>
-        <h2 className="text-center">
+        {/* <h2 className="text-center">
           Zvýhodněná cena v předprodeji <span className="color-green">1.555,-&nbsp;Kč</span>, platí do <span className="color-green">13.11.2024</span><br />poté 2.888,-&nbsp;Kč
         </h2>
         <Button
           buttonText="Objednat kurz"
           src="/pausalni-dan/objednavka"
           customClasses="mx-auto px-1"
-        />
+        /> */}
+                 <h2 className="text-center">Kurz je akutálně <span className="color-red">vyprodán</span>, pokud byste chtěli konzultaci na míru, neváhejte mne <a href="/kontakty" className="color-green underline">konktaktovat</a>.</h2>
         <h2 className="text-center color-green pt-3">Navíc <strong>jako dárek</strong> ode&nbsp;mě získáte dva odborné e&#8209;booky:</h2>
         <BulletList items={bonusBullets} listClasses="mb-0"/>
         <p
@@ -88,14 +89,15 @@ const indentifikovanaOsobaRoute = () => {
         <BulletList items={forWhoYes} />
         <h2 className="text-center color-red">Pro koho kurz není:</h2>
         <BulletList items={forWhoNo} />
-        <h2 className="text-center">
+        {/* <h2 className="text-center">
           Zvýhodněná cena v předprodeji <span className="color-green">1.555,-&nbsp;Kč</span>, platí do <span className="color-green">13.11.2024</span><br />poté 2.888,-&nbsp;Kč
         </h2>
         <Button
           buttonText="Objednat kurz"
           src="/pausalni-dan/objednavka"
           customClasses="mx-auto px-1 mb-5"
-        />
+        /> */}
+         <h2 className="text-center">Kurz je akutálně <span className="color-red">vyprodán</span>, pokud byste chtěli konzultaci na míru, neváhejte mne <a href="/kontakty" className="color-green underline">konktaktovat</a>.</h2>
       </section>
       <Footer />
     </>
