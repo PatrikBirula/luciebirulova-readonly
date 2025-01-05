@@ -44,8 +44,8 @@ const ContactUs = () => {
     setMessageText(sendingMessage.message);
 
     emailjs
-      .sendForm("web-form-1994*", "template_lpohw3k", form.current, {
-        publicKey: "DdGtDp6BddeV-iuC9",
+      .sendForm("service_mqodsgw", "template_bzd8d1q", form.current, {
+        publicKey: "tw_QsqfSt80XpMyRV",
       })
       .then(
         () => {
