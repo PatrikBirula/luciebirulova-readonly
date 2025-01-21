@@ -83,10 +83,10 @@ const contactsRoute = () => {
           ></iframe>
         </div>
       </section>
-      <section className="container text-center contact-form-wrapper">
+      {/* <section className="container text-center contact-form-wrapper">
         <h1>Formulář</h1>
         <ContactForm />
-      </section>
+      </section> */}
       <Footer />
     </>
   );
