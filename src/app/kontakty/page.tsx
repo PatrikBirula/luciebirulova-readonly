@@ -2,7 +2,6 @@ import "../styles/index.scss";
 import Image from "next/image";
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
-import ContactForm from "../components/ContactForm/contactForm";
 
 const contactsRoute = () => {
   return (
